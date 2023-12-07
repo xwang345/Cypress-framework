@@ -1,0 +1,24 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Automation Framework with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Xiaochen Wang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwang345/Cypress-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xwang345/Cypress-framework/issues"
+  },
+  "homepage": "https://github.com/xwang345/Cypress-framework#readme",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "prettier": "^3.1.0"
+  }
+}
