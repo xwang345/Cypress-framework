@@ -4,7 +4,12 @@
   "description": "Automation Framework with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run-dashboard": "cypress run --record --key 3ec48c5a-4ed9-4533-86f9-030b49e7fac3",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
   },
   "keywords": [],
   "author": "Xiaochen Wang",
@@ -19,6 +24,10 @@
   "homepage": "https://github.com/xwang345/Cypress-framework#readme",
   "dependencies": {
     "cypress": "^13.6.1",
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@simonsmith/cypress-image-snapshot": "^9.0.1"
   }
 }
